@@ -5,7 +5,7 @@
  * Date: 4/26/16
  * Time: 5:19 PM
  */
-
+$dbc = new PDO('mysql:host=localhost;dbname=Injection', 'root', 'root');
 ?>
 
 <!DOCTYPE html>
