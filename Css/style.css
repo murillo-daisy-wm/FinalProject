@@ -104,27 +104,17 @@ nav ul li a {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
-h1{
-    color:white;
-    margin-left: 200px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    font-size: 300%;
+
+#body{
+    background-color: lightblue;
 }
-p{
+#Text{
+    background-color: lightblue;
     margin-left: 200px;
-    color: white;
 }
-#contactUs,#AboutUs {
-    align-content:center;
-    margin-top: 100%;
-    padding-top: 100%;
-}
-h2{
-    margin-left: 200px;
-    color: white;
-}
-h3{
-    margin-left: 200px;
-    color: white;
+#Constrict{
+    width:100px;
+    height: 150px;
+    border-radius: 20px;
+    color: transparent;
 }
