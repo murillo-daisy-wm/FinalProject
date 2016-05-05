@@ -1,6 +1,6 @@
 <?php
 $dbc = new PDO('mysql:host=localhost;dbname=Injection', 'root','root');
-require_once('carousel.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -80,6 +80,8 @@ require_once('carousel.php');
         laoreet a mollis euismod, tincidunt sollicitudin, ut euismod platea,
         vel bibendum diam praesent orci wisi. </h3>
 </div>
+
+<?php require_once('carousel.php'); ?>
 <center>
     <h2 style="color: white"> Contact Us  </h2>
     <h2 style="color: white"> Email: Injection@gmail.com </h2>
