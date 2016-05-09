@@ -80,7 +80,7 @@ $dbc = new PDO('mysql:host=localhost;dbname=Injection', 'root','root');
         laoreet a mollis euismod, tincidunt sollicitudin, ut euismod platea,
         vel bibendum diam praesent orci wisi. </h3>
 </div>
-
+<!-- minor change-->
 <?php require_once('carousel.php'); ?>
 <center>
     <h2 style="color: white"> Contact Us  </h2>

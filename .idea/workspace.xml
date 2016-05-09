@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="122bf7ce-ac3e-4ef4-9b3d-13f4012d2f1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MonitorYourGlucose.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client Side/index.php" afterPath="$PROJECT_DIR$/Client Side/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage.php" afterPath="$PROJECT_DIR$/homepage.php" />
     </list>
     <ignored path="FinalProject(1).iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +57,8 @@
       <file leaf-file-name="homepage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homepage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19550173">
-              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.4550173">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -139,13 +137,13 @@
         <option value="$PROJECT_DIR$/Client Side/index.js" />
         <option value="$PROJECT_DIR$/NavBar.js" />
         <option value="$PROJECT_DIR$/Css/style.css" />
-        <option value="$PROJECT_DIR$/homepage.php" />
         <option value="$PROJECT_DIR$/carousel.php" />
         <option value="$PROJECT_DIR$/FAQ.php" />
         <option value="$PROJECT_DIR$/Client Side/glucoseLevel.js" />
         <option value="$PROJECT_DIR$/glucoseLevel.js" />
         <option value="$PROJECT_DIR$/Client Side/index.php" />
         <option value="$PROJECT_DIR$/MonitorYourGlucose.php" />
+        <option value="$PROJECT_DIR$/homepage.php" />
       </list>
     </option>
   </component>
@@ -738,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19550173">
-          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.4550173">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding />
         </state>
       </provider>
