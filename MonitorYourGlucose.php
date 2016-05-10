@@ -2,45 +2,30 @@
 $dbc = new PDO('mysql:host=localhost;dbname=Injection', 'root','root');
 ?>
 <!DOCTYPE html>
-    <head>
+<head xmlns="http://www.w3.org/1999/html">
     <link rel="stylesheet" href="Css/style.css">
+
+    <script>
+        function checkingGlucose (){
+            x = document.getElementById("glucose");
+
+            if (x.value <100){
+                alert('Your Glucose Level is Low, please see our listed recommendations to maintain at a normal healthy level.');
+            } else if(100<x.value>140){
+                alert('Your Glucose Level is normal/healthy.');
+            }else{
+                alert('Your Glucose Level is High, please see our listed recommendations to maintain at a normal healthy level.');
+            }
+        }
+    </script>
 </head>
-    <body >
-<input type="text">
-<input type="button" value="submit">
-
-    <script>
-        var userInput = prompt('please enter a glucose level');
-        if(userInput > 100)
-        {
-            alert('Your glucose level is high, please check our recommendations to normalize it');
-        }
-        else if(userInput < 100)
-        {
-            alert('Your glucose level is too low');
-        }
-        else if(userInput == 100)
-        {
-            alert('Your glucose level is normalized');
-        }
-        else{
-            alert('Please enter a value');
-        }
-    </script>
-
-    <script>
-
-        if (value<100){
-            prompt(' Your glucose level is too low');
-        } else if(value>150){
-            prompt('Your glucose level is too high, please see our reccomendations to normalize your level');
-        }else{
-            prompt(' ');
-        }
-
-    </script>
-
-
+    <body>
+    <br><br>
+    <center>
+<p> Enter glucose level below: </p>
+    <input type="text" id="glucose"/> <br>
+    <input type="button" value="submit" onclick="checkingGlucose()">
+    </center>
 
     </body>
     </html>
